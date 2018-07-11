@@ -253,7 +253,7 @@
 			         			<h4>Si elimina a este paciente, toda la información relacionada a él será eliminada.</h4>
 			         		</div>
 			                <div class="col-md-9">
-			                   <input class="form-control" type="text" value="<?php echo $elementos['EMD01IDPAC'];?>" id="id1" name="id1" style="display: none;">
+			                   <input class="form-control" type="text" value="" id="id1" name="id1" style="display: none;"><!--Arreglar-->
 			                </div>
 			            </div>
 			        </div>

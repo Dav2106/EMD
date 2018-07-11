@@ -1,4 +1,4 @@
-<?php session_set_cookie_params(0,"/");
+<?php @session_set_cookie_params(0,"/");
 @session_start();
 if(!isset($_SESSION['funcionario'])){
 	header('location: '.URL.'Login/iniciarSesion');
@@ -265,7 +265,7 @@ $fecha = date('Y-m-d H:i:s');?>
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
-<input hidden="hidden" id="iL" value="<?php echo $_SESSION['idLastDgn'];?>">
+<input hidden="hidden" id="iL" value="<?php echo @$_SESSION['idLastDgn'];?>">
 <div class="container-fluid" style="margin-top: 155px;">
    <div class="alert alert-info"></div>
    <div class="row">
