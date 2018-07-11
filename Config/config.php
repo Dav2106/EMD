@@ -6,6 +6,6 @@
 	define('DB_HOST','localhost');
 	define('DB_USER','root');
 	define('DB_PASS','$1Q2W3e4r$');
-	define('DB_NAME','emd4');
+	define('DB_NAME','emd4s');
 
 ?>
